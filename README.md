@@ -1,5 +1,7 @@
 # Bombastico
 
+![Bombastico](/Images/Bombastico.jpg)
+
 O jogo termina se o boneco for atingido por uma bomba ou quando obtiver 200 pontos. A aplicação é suportada por um 
 microcontrolador 8051, devendo ser desenvolvida e testada com o MCU8051IDE e respectivos periféricos. O código da aplicação deve 
 ser feito em C e Assembly inline para blocos de código específicos.
@@ -109,6 +111,8 @@ termina cuando una bomba toca al muñeco o cuando obtiene 200 puntos. La aplicac
   Suma puntos al contador para mostrarlos por el display.
   Y controla si la partida ha terminado por abandono, por muerte o victoria.
   Aquí abajo mostramos un diagrama de flujo.
+  
+  ![Bombastico](/Images/Flujo_runLevel.jpg)
   
   e. selectLevel
   
